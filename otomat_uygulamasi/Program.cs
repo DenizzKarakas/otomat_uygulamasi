@@ -10,6 +10,7 @@
             int cikolata = 30;
             Console.WriteLine("Hoş geldiniz");
             Console.WriteLine("Lütfen Ürün Seçimi Yapınız");
+            Console.WriteLine("Çıkmak için 4 Tuşuna Basınız");
             Console.WriteLine("Kola = 40 TL " + " " + "Ürün Kodu = 1");
             Console.WriteLine("Fanta = 40 TL " + " " + "Ürün Kodu = 2");
             Console.WriteLine("Çikolata = 30 TL " + " " + "Ürün Kodu = 3");
@@ -163,12 +164,16 @@
                         break;
                     }
                 }
+                else if (islem == 4)
+                {
+                    Console.WriteLine("İşleminiz İptal Edilmiştir");
+                    break;
+                }
                 else
                 {
                     Console.Clear();
                     Console.WriteLine("Geçersiz İşlem Girdiniz. Ana Menüye Yönlendiriliyorsunuz...");
                     goto GECERSİZİSLEM;
-
                 }
             }
         }
