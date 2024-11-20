@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "otomat_uygulamasi": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
